@@ -8,8 +8,8 @@ install.packages('esquisse')
 library('ggplot2')#para gráfico
 library('readxl')#para leitura de arquivo excel
 library('dplyr')#para tratamento da base de dados
-library('plotly')#para gráfico
-library('esquisse')
+library('plotly')#para gráfico, não foi necessário,mas caso queira um gráfico interativo
+library('esquisse')#para gráfico, não foi necessário,mas caso queira montar gráficos sem linha de comando para gráfico
 
 #identificando pasta de trabalaho
 setwd("C:/Users/artur/Documents/projeto senescencia")
